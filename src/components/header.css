@@ -1,0 +1,103 @@
+*{
+  box-sizing: border-box;
+}
+a{
+  color: #000000;
+  text-decoration: none;
+}
+body {
+  background-color: white;
+  margin-top: 10px;
+  overflow-x: hidden;
+  background-repeat: repeat;
+  font-family: 'Inter', sans-serif;
+  display: grid;
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav{
+  margin-left: 100px;
+  margin-top: 15px;
+}
+.logo p{
+  font-size: 45px;
+  font-weight: bolder;
+  padding: 20px;
+  margin-left: 20px;
+}
+.navBar .logo img {
+  float: left;
+  max-height: 120px;
+}
+.menu-item {
+  padding-top: 20px;
+  line-height: 40px;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  font-size: 15px;
+  width: 160px;
+}
+li {
+  list-style-type: none;
+}
+.menu-item .menu-name {
+  position: relative;
+  display: block;
+  margin: 0px 0 2px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0px 0px;
+  width: 120px;
+  z-index: 10;
+}
+
+.item{
+  display: inline-block;
+  width: 140px;
+  margin: -4px 0 0 -24px;
+  padding: 4px 5px 2px 5px !important;
+  border-radius: 5px;
+}
+.item:hover{
+  background-color: tomato;
+  color: white !important;
+}
+
+.menu-item a:hover{
+  color: tomato;
+}
+.menu-item .dropdown-item{
+  display: none;
+  background-color: white;
+  border-radius: 5px;
+  width: 140px;
+  margin-left: 10px;
+  box-shadow: 1px 1px 2px rgb(209, 207, 209), -1px -1px 2px rgb(209, 207, 209) ;
+}
+.menu-item:hover .dropdown-item{
+  display: block;
+}
+
+.container .row .search,.user{
+  height: 50px;
+  width: 50px;
+  margin: 20px 0 0 15px;
+}
+.container .row .search{
+  margin-left: 100px;
+  font-size: 40px;
+}
+.container .row .user{
+  margin-top: 20px;
+  border-radius: 50%;
+  font-size: 40px;
+  text-align: center;
+}

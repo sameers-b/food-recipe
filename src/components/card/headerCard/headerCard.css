@@ -1,0 +1,52 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.head-card-container{
+   /* border: 1px solid red; */
+   width: 82%;
+   margin: 0 auto;
+   border-radius: 20px;
+}
+.head-card-container .menu1{
+   float: left;
+}
+.head-card-container .menu1 img{
+   height: 100%;
+   /* border: 1px solid blue; */
+   border-radius: 20px 0 0 20px;
+   margin-left: 15px;
+}
+.head-card-container .menu-contant{
+   /* border: 1px solid green; */
+   border-radius: 0 20px 20px 0;
+   /* width: 200px; */
+   padding: 120px 93px 87px 70px;
+   background-color: rgb(227, 250, 250);
+}
+.head-card-container .menu-contant p:first-child{
+   color: red;
+}
+.head-card-container .menu-contant h2{
+   font-weight: bolder;
+   font-size: 45px;
+}
+.head-card-container .menu-contant #menu-p2{
+   font-size: 20px;
+}
+.head-card-container .menu-contant #menu-next{
+   height: 40px;
+   width: 40px;
+   border-radius: 50%;
+   position: absolute;
+   right: 150px;
+   bottom: 90px;
+   background-color: white;
+   font-size: 20px;
+   padding: 3px 0 0 10px;
+   color: tomato;
+}
+.head-card-container .menu-contant #menu-next:hover{
+   background-color: tomato;
+   color: white;
+}
